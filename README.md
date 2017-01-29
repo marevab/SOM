@@ -36,7 +36,7 @@ For the classification task, all digits from 0 to 9 have been taken into account
 After the training step (10000 iterations), I wanted to know whether the training was effective and whether the output neurons are organized in an meaningful way. For each output neuron of the lattice, I determined which input signal stimulate the particular neuron the most. In other words, which input signal is the closest of that output neuron. Then I attributed the label of the input signal to the neuron of the lattice. It gives the following result (left: visualization of the weights of the output neurons ; right: attributed labels).
 
 <p align="center">
-  <img src="img/SOM.png" alt="Representation of weights of the neurons of the SOM and corresponding labels values" />
+  <img src="img/SOM_results.png" alt="Representation of weights of the neurons of the SOM and corresponding labels values" />
 </p>
 
 We can almost determine all numbers represented on the left picture. Some numbers are easily recognizable, for example the numbers 0, 2, 6, because the form of these numbers is distinctive from the others. On the other hand, there are some confusions for a few numbers, such as the number 4 which looks like the number 9, and the number 3 looks like the number 5. It appears on the map that the numbers which look like to each other are close in the map : the numbers 7, 9 and 4 are on the lower left corner and the numbers 3 and 5 are on the upper corner. The closer the form of two numbers are, the closer they are
