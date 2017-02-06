@@ -1,6 +1,6 @@
 # Self-organising Map for handwritten number classification
 
-### Synopsis ###
+## Synopsis ##
 This project took place during the module _Neural networks_ at NUS (EE5904R).
 The goal of this project is to classify handwritten digits from MNIST dataset by using a Self-organising Map (SOM). 
 
@@ -29,7 +29,7 @@ By following the steps above iteratively, the weights of the output neurons foll
 
 The training phase is followed by a testing or mapping phase to classify a new input vector (Matlab script 'test_SOM'). The classification of a new input vector is simply done by determining its closest output neuron of the lattice. 
 
-### Results ###
+## Results ##
 
 For the classification task, all digits from 0 to 9 have been taken into account, except the digits 1 and 8. The steps previously mentionned have been followed to train the SOM. 
 
@@ -46,7 +46,7 @@ Concerning the testing phase (classification of new input samples), it gives an 
 
 Even though the results obtained by SOM algorithm are not as high as those obtained by a classic Multilayer Neural Network, Self-organizing maps can still useful in terms of representation of the input space of a dataset: it enables us to feel how a dataset "look like".
 
-### Project content ###
+## Project on GitHub ##
 
 Programming language: Matlab
 
@@ -63,6 +63,6 @@ To make the program run:
 3. run _viz_SOM_ to visualize the weights of the SOM
 4. run _test_SOM_ to use the SOM to classify the samples of the test dataset
 
-### Author ###
+## Author ##
 
 Mareva Brixy (marevabrixy@gmail.com)
